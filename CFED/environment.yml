@@ -1,0 +1,18 @@
+name: CFED
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - pip
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - ruff
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
