@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "cfed"
-version = "0.0.1"
+version = "1.0.0"
 description = "This is a Python package to estimate the Average Temperature Response over 100 years (ATR100) per unit fuel or kilometers traversed for different aviation-related climate forcers, i.e. CO2, H2O, NOx, and Contrail-induced cirrus (CiC). The function is designed to be suitable for integration in the aircraft engine design framework."
 authors = [
   { name = "Harjot Singh Saluja" },
@@ -16,6 +16,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 requires-python = "==3.12.13"
+dependencies = [
+    "numpy",
+]
 
 
 [tool.ruff]
